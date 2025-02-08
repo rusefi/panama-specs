@@ -1,4 +1,4 @@
-# panama-specs
+y# panama-specs
 Root repo for everything Project Panama
 
 TL,DR: fancy file upload form with folder names based on current date.
@@ -41,6 +41,10 @@ Just for information: 5000 users in user_names.csv maximum, one upload request p
 
 'existing-users-only' mode where uploads are allowed for a known userId
 
+### write only
+
+user_names.csv and uploaded content should not be exposed via http
+
 ## Admin API
 
 Admin API allows to switch between three modes of operations:
@@ -56,6 +60,8 @@ Admin API has a dedicated address some authentication (one hard-coded set of cre
 
 inputs: 
 uint32 userId, String username
+
+username longer than 64 symbols or with prohibited symbols should be rejected 
 
 adds line with current yyyymmdd if primary key not found
 
