@@ -46,7 +46,7 @@ Admin API allows to switch between three modes of operations:
 * existing-users-only
 * full
 
-Admin API has a dedicated address with .htaccess authentication
+Admin API has a dedicated address some authentication (one hard-coded set of credentials, something plain similar to .htaccess authentication)
 
 ## User API
 
