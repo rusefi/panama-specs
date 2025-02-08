@@ -1,6 +1,8 @@
 # panama-specs
 Root repo for everything Project Panama
 
+TL,DR: fancy file upload form with folder names based on current date.
+
 Panama is an HTTP-based backend API facilitating user calibration file upload.
 
 KISS without SQL database.
