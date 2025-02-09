@@ -1,4 +1,4 @@
-y# panama-specs
+# panama-specs
 Root repo for everything Project Panama
 
 TL,DR: fancy file upload form with folder names based on current date.
@@ -7,7 +7,7 @@ Panama is an HTTP-based backend API facilitating user calibration file upload.
 
 KISS without SQL database.
 
-Out of scope: frontend application API consumer. Acceptable criteria: any means to invoke API via HTTP (browser or else?)
+Out of scope: frontend application API consumer. Existing rusEFI console is the frontent application used by actual Jor from Florida. Acceptable criteria: any means to invoke API via HTTP (browser or else?)
 
 ## Hosting
 
@@ -83,5 +83,9 @@ userName_userId\yyyy-mm-dd\random_file_name.xml
 
 
 
+### Sunday state
 
-  
+frontend prototype https://github.com/rusefi/rusefi/tree/panama
+
+backend prototype https://github.com/rusefi/panama-specs/tree/main/panama-test
+
