@@ -1,5 +1,7 @@
 # panama-specs
-Root repo for everything Project Panama
+Root repo for everything 'Project Panama'
+
+В некотором смысле замена https://rusefi.com/online/
 
 TL,DR: fancy file upload form with folder names based on current date.
 
